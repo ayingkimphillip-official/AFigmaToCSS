@@ -1,0 +1,454 @@
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#main-container section {
+    flex-grow: 1;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+#left-section {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+}
+
+#left-header {
+    width: calc(100% - 215px);
+    height: 28px;
+    margin-left: 215px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    flex-shrink: 1;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #EB6023;
+}
+
+#left-menu {
+    flex-grow: 1;
+}
+
+#left-menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#left-menu ul li {
+    display: inline-block;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.4px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.312px;
+    color: #525256;
+}
+
+#left-menu ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#left-menu ul li:first-child {
+    margin-right: 57.8px;
+}
+
+#left-box-container1 {
+    margin-left: 227px;
+    margin-top: 157px;
+    width: 351px;
+    height: 96;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38.4px;
+    line-height: 48px;
+    letter-spacing: -0.5184px;
+    color: #525256;
+}
+
+#easy {
+    color: green;
+    text-decoration: underline;
+}
+
+#left-box-container2 {
+    position: absolute;
+    margin-left: 215px;
+    margin-top: 460px;
+    width: 86%;
+    height: 86px;
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 38px rgba(0, 0, 0, 0.03);
+    border-left: 8px solid green;
+}
+
+#left-box-container2 input {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    text-indent: 33.3px;
+}
+
+#left-box-container2 input::placeholder {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.2px;
+    line-height: 23px;
+    letter-spacing: 0.6px;
+    color: #BCBCBC;
+}
+
+#search-icon {
+    width: 27.6px;
+    height: 27.6px;
+    transform: translateY(3px);
+}
+
+#search-icon:hover {
+    cursor: pointer;
+}
+
+#left-box-container3 {
+    margin-left: 215px;
+    margin-top: 301.2px;
+    display: inline-block;
+}
+
+#left-box-container3 span {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.2px;
+    line-height: 48px;
+    letter-spacing: 3.336px;
+    color: #000000;
+}
+
+#lightning-icon {
+    transform: translateY(3px);
+}
+
+.left-box-container-buttons {
+    margin-left: 215px;
+    margin-top: 15px;
+}
+
+.left-orange-buttons {
+    background: transparent;
+    border: 2px solid #F16521;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.orange-button-span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.350877px;
+    color: #F16521;
+}
+
+.orange-button-span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.left-notorange-buttons {
+    background: transparent;
+    border: 1.92px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 7.68px;
+}
+
+.notorange-button-span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.2px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.336842px;
+    color: #3B3B3B;
+}
+
+.notorange-button-span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#right-section {
+    background: linear-gradient(55.22deg, #D95129 -0.02%, #F16521 88.91%);
+    display: flex;
+    flex-direction: column;
+}
+
+#right-header {
+    width: calc(100% - 150px);
+    height: 48.94px;
+    margin-left: 150px;
+    margin-top: 25.4px;
+    display: flex;
+    align-items: center;
+}
+
+#right-menu {
+    flex-shrink: 1;
+}
+
+#right-menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#right-menu ul li {
+    display: inline-block;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.2px;
+    line-height: 15px;
+    text-align: right;
+    letter-spacing: 0.286px;
+    color: #FFFFFF;
+    margin-right: 36.4px;
+}
+
+#gear-icon {
+    transform: translateY(3px);
+}
+
+#button-holder {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.right-header-buttons {
+    background: transparent;
+    border: 0.864px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6.912px;
+    width: calc(116.4px - 0.864px);
+    height: calc(48.94px - 0.864px);
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-header-buttons span {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.2px;
+    line-height: 15px;
+    letter-spacing: -0.231579px;
+    color: #FFFFFF;
+}
+
+#login-button {
+    margin-right: 18px;
+}
+
+#lock-icon {
+    transform: translateY(3px);
+}
+
+#plus-icon {
+    transform: translateY(3px);
+    width: 14px;
+    height: 18px;
+}
+
+#right-box-container {
+    width: 358.8px;
+    margin-left: calc(50% - 358.8px / 2);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.top-bottom-boxes {
+    width: 334.8px;
+    height: 276.57px;
+    background: #ED6E2D;
+    mix-blend-mode: screen;
+    opacity: 0.3;
+    border-radius: 9.6px;
+    display: flex;
+    align-items: center;
+}
+
+#top-box-items {
+    position: absolute;
+    width: 200.4px;
+    height: 109.08px;
+    top: 85.2px;
+    display: flex;
+}
+
+#top-span-holder {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#top-span-holder span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.12px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+#top-span-holder span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#receive-money {
+    margin-right: 29.02px;
+}
+
+#line1 {
+    margin-right: 15.12px;
+}
+
+#middle-box {
+    width: 358.8px;
+    height: 277.56px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 42px rgba(133, 133, 133, 0.1), 0px 18px 26px rgba(119, 119, 119, 0.1), 0px 5px 10px rgba(161, 161, 161, 0.12);
+    border-radius: 9.6px;
+}
+
+#middle-box-items {
+    position: absolute;
+    width: 100%;
+    height: 109.08px;
+    top: calc(75.6px + 276.57px);
+    display: flex;
+    align-items: center;
+}
+
+#middle-box-items span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.8px;
+    line-height: 23px;
+    color: #000000;
+    margin-right: 39.6px;
+}
+
+#money-laptop {
+    margin-left: 39.6px;
+    margin-right: 29.02px;
+    width: 93.6px;
+    height: 56.4px;
+}
+
+#line2 {
+    margin-right: 15.12px;
+    width: 2.4px;
+    height: 121.2px;
+}
+
+#inside-middle-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#inside-middle-box:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#view-more {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+
+#line3 {
+    position: absolute;
+    left: 0px;
+    top: 90px;
+}
+
+#bottom-box-items {
+    position: absolute;
+    width: 200.4px;
+    height: 109.08px;
+    top: 632.2px;
+    display: flex;
+}
+
+#calculator-icon {
+    margin-right: 28.64px;
+}
+
+#line1-1 {
+    margin-right: 15.12px;
+}
+
+#bottom-span-holder {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+#bottom-span-holder span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.12px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
