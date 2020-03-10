@@ -149,6 +149,19 @@ body {
     cursor: pointer;
 }
 
+#left-orange-box-container {
+    position: absolute;
+    top: 445px;
+}
+
+#left-orange-box {
+    width: 99px;
+    height: 99px;
+    background: linear-gradient(48.55deg, #D95129 19.25%, #F16521 98.13%);
+    border-radius: 30px;
+    transform: matrix(0.87, -0.5, -0.5, -0.87, 0, 0);
+}
+
 #left-box-container3 {
     margin-left: 215px;
     margin-top: 301.2px;
@@ -530,8 +543,6 @@ body {
 }
 
 #oval-container1 {
-    /* width: 93.6px;
-    height: 93.6px; */
     left: 3.2px;
     top: 600.6px;
 }
@@ -561,7 +572,8 @@ body {
 }
 
 #oval-container3 {
-    left: 600.4px;
+    left: 750.4px;
+    /* right: 118.4px; */
     top: 500px;
     border-radius: 50%;
 }
